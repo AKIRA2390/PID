@@ -1,8 +1,8 @@
 # PID制御ライブラリ
-PID制御を完全に理解したので書いてみた
-"4arduino"とあるように、arduinoで使うために書いた
-だけど、arduinoに依存するものは使ってない~~というかこの短さで使う方が難しい~~ので別にarduino専用ってわけでもない
-ちなみにtemprateを初めて使ってみた
+PID制御を完全に理解したので書いてみた  
+"4arduino"とあるように、arduinoで使うために書いた  
+だけど、arduinoに依存するものは使ってない、ので別にarduino専用ってわけでもない  
+ちなみにtemprateを初めて使ってみた  
 temprateも完全に理解した
 
 
@@ -16,14 +16,14 @@ temprateも完全に理解した
  PID4arduino pid = PID4arduino<double>;
 
 ```
-intやdouble,floatを使って宣言できる
+intやdouble,floatを使って宣言できる  
 この型は入出力に使われる
 
 ## ゲイン設定
 ```cpp:hogehoge.cpp
 pid.setGains(kp,ki,kd);
-```
-これを忘れるとゲインはすべてゼロになる
+``` 
+これを忘れるとゲインはすべてゼロになる  
 ## 入力
 ```cpp:fugafuga.cpp
 update(int SV, int PV, millis());
