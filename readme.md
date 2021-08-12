@@ -1,5 +1,5 @@
 # PID制御ライブラリ
-PID制御を完全に理解したので書いてみた  
+PID制御を理解したので書いてみた  
 "4arduino"とあるように、arduinoで使うために書いた  
 だけどarduinoに依存するものは使ってないので、別にarduino専用ってわけでもない  
 ちなみにtemprateを初めて使ってみた  
@@ -39,7 +39,7 @@ analogWrite(pin,pid.write());
 
 # info
 ## 書いた人
- **†*akira2390*†**
+ akira2390
 
 ## 書き始めた日
  2020/12/16
