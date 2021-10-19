@@ -17,7 +17,7 @@ class PID4arduino {
   PID4arduino() {}
   ~PID4arduino() {}
 
-  void setGains(PIDGain_t Gains) { memcpy(PIDGains, Gains, sizeof(Gains)); }
+  void setGains(PIDGain_t Gains) { memcpy(&PIDGains, &Gains, sizeof(Gains)); }
 
   // SVが目標値、PVが測定値
   void update(T SV, T PV) {
