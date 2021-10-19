@@ -3,7 +3,7 @@
 namespace PID4Arduino {
 typedef struct PIDGain_t {
   double KP = 0, KI = 0, KD = 0;
-};
+}PIDGain_t;
 
 template <typename T>  // intまたはdoubleを想定
 class PID4arduino {
